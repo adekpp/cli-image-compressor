@@ -61,3 +61,6 @@ Desktop.ini
 
 # Claude Code settings
 .claude/
+
+# Publishing documentation (sensitive info)
+PUBLISH.md
