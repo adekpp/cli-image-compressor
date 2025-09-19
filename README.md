@@ -319,14 +319,36 @@ chokidar "**/*.{jpg,png}" -c "img-compress file {path}"
 
 ### Installation Issues
 
-If you encounter Sharp installation issues:
+#### Sharp Module Platform Errors (Windows/Mac/Linux)
+
+If you see errors about Sharp module not loading for your platform:
+
+```bash
+# For Windows users:
+npm install -g cli-image-compressor --os=win32 --cpu=x64
+
+# For macOS users (Intel):
+npm install -g cli-image-compressor --os=darwin --cpu=x64
+
+# For macOS users (Apple Silicon/M1/M2):
+npm install -g cli-image-compressor --os=darwin --cpu=arm64
+
+# For Linux users:
+npm install -g cli-image-compressor --os=linux --cpu=x64
+
+# Alternative: Force optional dependencies installation
+npm install -g cli-image-compressor --include=optional
+```
+
+If the issue persists:
 
 ```bash
 # Clear npm cache
 npm cache clean --force
 
-# Reinstall
+# Reinstall with platform-specific Sharp
 npm install -g cli-image-compressor
+npm install -g sharp --os=win32 --cpu=x64  # Replace with your platform
 ```
 
 ### Memory Issues

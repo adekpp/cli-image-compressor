@@ -1,6 +1,6 @@
 {
   "name": "cli-image-compressor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool for image compression",
   "main": "index.js",
   "bin": {
@@ -38,7 +38,9 @@
     "cli-table3": "^0.6.3",
     "commander": "^11.1.0",
     "glob": "^10.3.10",
-    "ora": "^5.4.1",
+    "ora": "^5.4.1"
+  },
+  "optionalDependencies": {
     "sharp": "^0.33.0"
   },
   "devDependencies": {},
