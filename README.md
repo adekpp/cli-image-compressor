@@ -18,19 +18,19 @@ Standalone CLI tool for batch image compression and optimization.
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g img-compress-cli
+npm install -g cli-image-compressor
 ```
 
 Or using Yarn:
 
 ```bash
-yarn global add img-compress-cli
+yarn global add cli-image-compressor
 ```
 
 ### Local Installation
 
 ```bash
-npm install img-compress-cli
+npm install cli-image-compressor
 ```
 
 Then use with npx:
@@ -326,7 +326,7 @@ If you encounter Sharp installation issues:
 npm cache clean --force
 
 # Reinstall
-npm install -g img-compress-cli
+npm install -g cli-image-compressor
 ```
 
 ### Memory Issues
@@ -344,7 +344,7 @@ On macOS/Linux:
 
 ```bash
 # Use sudo for global installation
-sudo npm install -g img-compress-cli
+sudo npm install -g cli-image-compressor
 
 # Or change npm prefix
 npm config set prefix ~/.npm-global
