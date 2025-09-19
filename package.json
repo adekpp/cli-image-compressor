@@ -1,0 +1,55 @@
+{
+  "name": "cli-image-compressor",
+  "version": "1.0.0",
+  "description": "CLI tool for image compression",
+  "main": "index.js",
+  "bin": {
+    "img-compress": "bin/compress.js"
+  },
+  "scripts": {
+    "test": "node bin/compress.js --version"
+  },
+  "keywords": [
+    "image",
+    "compression",
+    "cli",
+    "sharp",
+    "compress",
+    "optimize",
+    "webp",
+    "jpeg",
+    "png"
+  ],
+  "author": "Adrian Pietryga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adekpp/img-compress-cli.git"
+  },
+  "homepage": "https://github.com/adekpp/img-compress-cli#readme",
+  "bugs": {
+    "url": "https://github.com/adekpp/img-compress-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "ora": "^5.4.1",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "commonjs"
+}

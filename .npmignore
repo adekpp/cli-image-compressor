@@ -1,0 +1,27 @@
+# Development files
+*.log
+.DS_Store
+node_modules/
+.env
+.env.local
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Build files
+.github/
+.vscode/
+.idea/
+
+# Documentation source
+docs/
+examples/
+
+# Misc
+*.swp
+*.swo
+*~
+.npmrc
