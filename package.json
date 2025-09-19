@@ -1,6 +1,6 @@
 {
   "name": "cli-image-compressor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for image compression",
   "main": "index.js",
   "bin": {
@@ -24,11 +24,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adekpp/img-compress-cli.git"
+    "url": "git+https://github.com/adekpp/cli-image-compressor.git"
   },
-  "homepage": "https://github.com/adekpp/img-compress-cli#readme",
+  "homepage": "https://github.com/adekpp/cli-image-compressor#readme",
   "bugs": {
-    "url": "https://github.com/adekpp/img-compress-cli/issues"
+    "url": "https://github.com/adekpp/cli-image-compressor/issues"
   },
   "engines": {
     "node": ">=14.0.0"
