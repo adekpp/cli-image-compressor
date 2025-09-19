@@ -1,4 +1,4 @@
-# img-compress-cli
+# cli-image-compressor
 
 Standalone CLI tool for batch image compression and optimization.
 
@@ -376,4 +376,4 @@ MIT © Adrian Pietryga
 ## Support
 
 For issues and feature requests, please visit:
-[GitHub Issues](https://github.com/adekpp/img-compress-cli/issues)
+[GitHub Issues](https://github.com/adekpp/cli-image-compressor/issues)
